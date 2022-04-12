@@ -8,3 +8,6 @@ sklearn==0.0
 numpy==1.20.1
 streamlit==1.8.1
 tensorflow==2.8.0
+Pillow==9.1.0
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
