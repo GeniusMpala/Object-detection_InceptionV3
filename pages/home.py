@@ -40,12 +40,7 @@ def app():
             st.write("")
             st.write("")
             st.write("")
-           # if h_search.lower() in detected_obj:
-            #    h_rez = "found"
-             #   img = Image.open('./en_images/'+str(filter_frame(h_search)))
-              #  st.image(img, caption=h_search.lower() + " frame found")
-            #else:
-             #   play_video("video.mp4")
+
     else:
         col1, col2 = st.columns([2,6])
         with col1:  
