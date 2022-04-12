@@ -21,21 +21,7 @@ def app():
 
     hs1, hs2, hs3 = st.columns([1,4,2])
 
-    #with hs2:
-       # h_search = st.text_input("Search for objects in video")
-        #if h_search.lower() in detected_obj:
-         #   h_rez = "found"
-        #else:
-         #   h_rez = "not found"
-        
-   # with hs3:
-    #    st.write('Search results')
-     #   if h_search.lower() is None:
-      #      status = st.write(f'{h_search} ...')
-       # else:
-        #    status = st.write(f'{h_search} {h_rez}')
-
-
+    
     if len(detected_obj) > 6:
         col1, col2, col3 = st.columns([2,2,6])
         with col1:
